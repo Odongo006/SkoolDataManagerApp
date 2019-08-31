@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".MainActivity"
+      android:background="@drawable/high_school_pic">
+
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp">
+            <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <RelativeLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent">
+
+                              <TextView
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Enter Students name"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/tv_et_enter_students_name_id"
+                                    android:textColor="#000000"
+                                    android:textStyle="bold"
+                                    />
+                              <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_et_enter_students_name_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_student1_id"/>
+
+                              <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/et_student1_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_student2_id"/>
+
+                              <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/et_student2_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_student3_id"/>
+
+                              <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/et_student3_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_student4_id"/>
+
+                              <EditText
+                                    android:layout_width="140dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/et_student4_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_student5_id"/>
+
+
+
+                              <TextView
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_students_marks_id"
+                                    android:text="Marks"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginStart="25dp"
+                                    />
+
+                              <EditText
+                                    android:id="@+id/et_marks1_id"
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@id/tv_students_marks_id"
+                                    android:layout_marginStart="25dp"
+                                    android:layout_marginLeft="27dp"
+                                    android:layout_marginTop="-2dp"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id" />
+
+                              <EditText
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                                    android:layout_below="@id/et_marks1_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_marks2_id"/>
+
+                              <EditText
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                                    android:layout_below="@id/et_marks2_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_marks3_id"/>
+
+                              <EditText
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                                    android:layout_below="@id/et_marks3_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_marks4_id"/>
+
+                              <EditText
+                                    android:layout_width="70dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_et_enter_students_name_id"
+                                    android:layout_below="@id/et_marks4_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_marks5_id"/>
+
+
+
+                              <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/tv_grade_id"
+                                    android:text="Grade"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginStart="25dp"/>
+
+                              <EditText
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_below="@id/tv_grade_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_grade1_id"/>
+
+
+                              <EditText
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_below="@id/et_grade1_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_grade2_id"/>
+
+                              <EditText
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_below="@id/et_grade2_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_grade3_id"/>
+
+                              <EditText
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_below="@id/et_grade3_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_grade4_id"/>
+
+                              <EditText
+                                    android:layout_width="50dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toRightOf="@id/tv_students_marks_id"
+                                    android:layout_below="@id/et_grade4_id"
+                                    android:layout_marginStart="25dp"
+                                    android:id="@+id/et_grade5_id"/>
+
+
+                              <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/bt_send_information_id"
+                                    android:text="send"
+                                    android:textStyle="bold"
+                                    android:textColor="#000000"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_below="@id/et_grade5_id"
+                                    android:background="#0288FE"  />
+
+
+
+                        </RelativeLayout>
+
+                  </ScrollView>
+
+
+            </LinearLayout>
+
+      </RelativeLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
